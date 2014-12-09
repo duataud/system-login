@@ -18,6 +18,7 @@ import org.hibernate.validator.constraints.Email;
 import codes.duat.jba.annotation.UniqueUsername;
 
 @Entity
+@Table(name="app_user")
 public class User {
 
 	@Id
